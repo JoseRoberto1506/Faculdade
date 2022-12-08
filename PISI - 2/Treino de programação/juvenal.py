@@ -26,7 +26,7 @@ def maiores_valores(testes):
     '''
     maiores_valores = []
     # Inteiros A e B
-    for _ in range(t):
+    for _ in range(testes):
         while True:
             a, b = [int(i) for i in input().split()]
             if 1 <= a <= b <= 100000:
