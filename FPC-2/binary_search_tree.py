@@ -155,6 +155,53 @@ class BinarySearchTree:
         y.left.p = y
 
 
+class AVLTree(BinarySearchTree):
+    def height(self, node):
+        if node is None:
+            return 0
+        left_height = self.height(node.left)
+        right_height = self.height(node.right)
+        return 1 + max(left_height, right_height)
+    
+
+    def balance(self, node):
+        if node is None:
+            return 0
+        return self.height(node.right) - self.height(node.left)
+    
+
+    def left_rotate(self, node): # O(1)
+        y = node.right
+        node.right = y.left     # torna a sub-árvore esquerda de y na sub-árvore direita do nó a ser rotacionado
+        if y.left is not None:
+            y.left.p = node
+        y.p = node.p            # conecta o pai do nó a ser rotacionado a y
+        if node.p is None:
+            self.root = y
+        elif node.isLeft():
+            node.p.left = y
+        else:
+            node.p.right = y
+        y.left = node           # coloca o nó rotacionado na esquerda de y
+        node.p = y
+
+
+    def right_rotate(self, node): # O(1)
+        x = node.left
+        node.left = x.right     # torna a sub-árvore direita de x na sub-árvore esquerda do nó a ser rotacionado
+        if x.right is not None:
+            x.right.p = node
+        x.p = node.p            # conecta o pai do nó a ser rotacionado a x
+        if node.p is None:
+            self.root = x
+        elif node.isLeft():
+            node.p.left = x
+        else:
+            node.p.right = x
+        x.right = node          # coloca o nó rotacionado na direita de x
+        node.p = x
+
+
 if __name__ == "__main__":
     nodes_to_insert = [
         Node(41), Node(20), Node(11), Node(65), Node(50), 
@@ -164,3 +211,7 @@ if __name__ == "__main__":
     bst = BinarySearchTree()
     for node in nodes_to_insert:
         bst.tree_insert(node)
+        
+    avlt = AVLTree()
+    for node in nodes_to_insert:
+        avlt.tree_insert(node)
