@@ -27,6 +27,8 @@ Atividades, exercícios e projetos feitos durante minha graduação em BSI.
   * Função de limpar texto.
   * Cifra de Bacon.
   * Quebra de cifra de deslocamento.
+  * Exponencial modular.
+  * Criptossistema RSA.
 * <b>(FPC - II) Fundamentos de Problemas Computacionais II | Prof.: Tiago Ferreira</b>
   * Implementação da estrutura e dos algoritmos de árvore de busca binária.
   * Implementação da estrutura e dos algoritmos de árvore vermelho-preta.
