@@ -1,0 +1,112 @@
+[
+  {
+    "Ticker": "B3SA3",
+    "Setor": "Servicos financeiros",
+    "Retorno": 0.18,
+    "Risco": 0.12,
+    "Preco_sobre_Lucro": 14.88,
+    "Lucro_por_acao": 0.9,
+    "PEG_Ratio": 0.8,
+    "Preco_sobre_VP": 3.75,
+    "ROIC": 9.9
+  },
+  {
+    "Ticker": "ITUB4",
+    "Setor": "Bancos",
+    "Retorno": 0.16,
+    "Risco": 0.10,
+    "Preco_sobre_Lucro": 9.16,
+    "Lucro_por_acao": 3.87,
+    "PEG_Ratio": 0.52,
+    "Preco_sobre_VP": 1.9,
+    "ROIC": null
+  },
+  {
+    "Ticker": "ABEV3",
+    "Setor": "Consumo nao ciclico",
+    "Retorno": 0.12,
+    "Risco": 0.09,
+    "Preco_sobre_Lucro": 14.89,
+    "Lucro_por_acao": 0.92,
+    "PEG_Ratio": -30.1,
+    "Preco_sobre_VP": 2.27,
+    "ROIC": 17.4
+  },
+  {
+    "Ticker": "WEGE3",
+    "Setor": "Bens industriais",
+    "Retorno": 0.20,
+    "Risco": 0.14,
+    "Preco_sobre_Lucro": 25.17,
+    "Lucro_por_acao": 1.53,
+    "PEG_Ratio": 2.51,
+    "Preco_sobre_VP": 7.26,
+    "ROIC": 25.59
+  },
+  {
+    "Ticker": "VALE3",
+    "Setor": "Materiais basicos / mineracao",
+    "Retorno": 0.15,
+    "Risco": 0.13,
+    "Preco_sobre_Lucro": 8.29,
+    "Lucro_por_acao": 6.93,
+    "PEG_Ratio": -0.44,
+    "Preco_sobre_VP": 1.29,
+    "ROIC": 14.22
+  },
+  {
+    "Ticker": "ELET3",
+    "Setor": "Energia / Utilities",
+    "Retorno": 0.11,
+    "Risco": 0.08,
+    "Preco_sobre_Lucro": 9.26,
+    "Lucro_por_acao": 4.20,
+    "PEG_Ratio": 0.08,
+    "Preco_sobre_VP": 0.74,
+    "ROIC": 10.77
+  },
+  {
+    "Ticker": "BPAC11",
+    "Setor": "Seguros / Financeiro",
+    "Retorno": 0.13,
+    "Risco": 0.11,
+    "Preco_sobre_Lucro": 13.71,
+    "Lucro_por_acao": 2.94,
+    "PEG_Ratio": 1.58,
+    "Preco_sobre_VP": 2.46,
+    "ROIC": null
+  },
+  {
+    "Ticker": "RDOR3",
+    "Setor": "Saude",
+    "Retorno": 0.10,
+    "Risco": 0.09,
+    "Preco_sobre_Lucro": 18.48,
+    "Lucro_por_acao": 1.78,
+    "PEG_Ratio": 0.31,
+    "Preco_sobre_VP": 3.02,
+    "ROIC": 10.81
+  },
+  {
+    "Ticker": "PETR3",
+    "Setor": "Petroleo",
+    "Retorno": 0.14,
+    "Risco": 0.12,
+    "Preco_sobre_Lucro": 9.35,
+    "Lucro_por_acao": 3.73,
+    "PEG_Ratio": -0.17,
+    "Preco_sobre_VP": 1.14,
+    "ROIC": 11
+  },
+  {
+    "Ticker": "LWSA3",
+    "Setor": "Tecnologia",
+    "Retorno": 0.22,
+    "Risco": 0.18,
+    "Preco_sobre_Lucro": 68.38,
+    "Lucro_por_acao": 0.06,
+    "PEG_Ratio": -0.43,
+    "Preco_sobre_VP": 0.81,
+    "ROIC": 3.74
+  }
+]

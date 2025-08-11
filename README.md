@@ -33,3 +33,10 @@ Atividades, exercícios e projetos feitos durante minha graduação em BSI.
   * Implementação da estrutura e dos algoritmos de árvore de busca binária.
   * Implementação da estrutura e dos algoritmos de árvore vermelho-preta.
   * Implementação da estrutura e dos algoritmos de grafo.
+
+## 7º Período (2025.1)
+* <b>(TeoComp) Teoria da Computação | Prof.: Rodrigo Nonamor</b>
+  * Autômatos determinísticos e não-determinísticos.
+  * Gramática livre de contexto e autômato com pilha.
+* <b>(TAVIA) Tópicos Avançados em Inteligência Artificial | Prof.: Cícero Garrozi</b>
+  * Algoritmo Genético para otimização de portfolio de investimentos.
